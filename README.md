@@ -1,12 +1,17 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Crop Prediction using Soil Measurements
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project evaluates the predictive power of individual soil features (Nitrogen, Phosphorus, Potassium, and pH) using Logistic Regression. The goal is to determine which soil feature best predicts crop type.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Dataset
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+The dataset `soil_measures.csv` should contain:
+- Features: `N`, `P`, `K`, `ph`
+- Target: `crop` (categorical class representing the crop type)
 
+## Installation
+
+1. Clone this repository.
+2. Install required packages:
+
+```bash
+pip install -r requirements.txt
